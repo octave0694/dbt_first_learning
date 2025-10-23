@@ -1,0 +1,35 @@
+uv init  
+uv add dbt-core  
+uv add dbt-databricks  
+uv pip freeze > requirements.txt  
+uv remove dbt-core  
+uv remove dbt-databricks  
+
+
+dbt init  
+dbt debug  
+dbt run  
+dbt clean  
+dbt run --select "models/bronze"  
+dbt run --select bronze_date  
+dbt run --select "bronze_date bronze_store"  
+dbt test  
+dbt seed  
+dbt snapshot  
+dbt build  
+dbt build --target prod    
+
+power user for dbt extension
+	- select python interpreter
+	- associate File Types (*.sql => jinja-sql, *.yml => jinja-yaml)
+	
+
+- models  
+- Define configs (configuration, properties, blocks)  
+- Custom schemas  
+- Node selection  
+- DBT tests (data tests to your DAG) : singular, generic, Writing custom generic data tests  
+- DBT packages  
+- DBT seeds  
+- DBT Jinja  
+- DBT snapshots  

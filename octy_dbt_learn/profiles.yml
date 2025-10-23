@@ -1,0 +1,19 @@
+octy_dbt_learn:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-fac7b9b8-bbb6.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/d365070b8a419a3d
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+    prod:
+      catalog: dbt_tutorial_prod
+      host: dbc-fac7b9b8-bbb6.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/d365070b8a419a3d
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+  target: dev
