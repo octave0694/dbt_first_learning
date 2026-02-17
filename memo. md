@@ -18,6 +18,7 @@ dbt seed
 dbt snapshot  
 dbt build  
 dbt build --target prod    
+dbt deps
 
 power user for dbt extension
 	- select python interpreter
@@ -32,4 +33,5 @@ power user for dbt extension
 - DBT packages  
 - DBT seeds  
 - DBT Jinja  
+
 - DBT snapshots  
