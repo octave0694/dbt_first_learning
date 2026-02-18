@@ -17,6 +17,7 @@ dbt run --select "models/bronze"
 dbt run --select bronze_date  
 dbt run --select "bronze_date bronze_store"  
 dbt test  
+dbt test -s model_name
 dbt seed  
 dbt snapshot  
 dbt build  
@@ -38,5 +39,6 @@ power user for dbt extension
 - DBT Jinja  
 
 - DBT snapshots  
+
 
 
