@@ -6,6 +6,7 @@
 
 #### Leraning
 - https://learn.getdbt.com/learn/course/dbt-fundamentals/welcome-to-dbt-fundamentals-5min/welcome
+- https://learn.getdbt.com/courses/dbt-fundamentals-vs-code  
 
 
 uv init  
@@ -46,6 +47,7 @@ power user for dbt extension
 - DBT Jinja  
 
 - DBT snapshots  
+
 
 
 
