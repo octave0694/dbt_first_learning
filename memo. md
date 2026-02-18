@@ -1,5 +1,12 @@
 [https://docs.getdbt.com/guides/databricks?step=1](DBT guide for Databricks)
 
+- https://docs.getdbt.com/docs/introduction
+- https://docs.getdbt.com/guides/databricks?step=1
+- https://docs.getdbt.com/reference/references-overview
+
+#### Leraning
+- https://learn.getdbt.com/learn/course/dbt-fundamentals/welcome-to-dbt-fundamentals-5min/welcome
+
 
 uv init  
 uv add dbt-core  
@@ -39,6 +46,7 @@ power user for dbt extension
 - DBT Jinja  
 
 - DBT snapshots  
+
 
 
 
