@@ -1,3 +1,6 @@
+[DBT guide for Databricks](https://docs.getdbt.com/guides/databricks?step=1)
+
+
 uv init  
 uv add dbt-core  
 uv add dbt-databricks  
@@ -35,3 +38,4 @@ power user for dbt extension
 - DBT Jinja  
 
 - DBT snapshots  
+
