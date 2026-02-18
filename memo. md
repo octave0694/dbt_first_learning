@@ -1,4 +1,4 @@
-[DBT guide for Databricks](https://docs.getdbt.com/guides/databricks?step=1)
+[https://docs.getdbt.com/guides/databricks?step=1](DBT guide for Databricks)
 
 
 uv init  
@@ -38,4 +38,5 @@ power user for dbt extension
 - DBT Jinja  
 
 - DBT snapshots  
+
 
